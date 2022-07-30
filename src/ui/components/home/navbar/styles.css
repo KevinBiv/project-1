@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar .logo {
+    color: #00631C;
+}
+
+.navbar-list {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #00631C;
+}
+
+.navbar-list .home {
+    color: #00631C;
+    font-weight: bold;
+}
+
+.navbar-list .sign-up {
+    border: 1px solid #00631C;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
